@@ -1,0 +1,75 @@
+.projects {
+    padding-bottom: 50px;
+}
+
+.project-container {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    align-items: center;
+}
+
+.project-items {
+    border: 2px solid #898989;
+    border-radius: 26px;
+    padding: 20px;
+    width: 30%;
+}
+
+.project-items img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 26px;
+}
+
+.project-title {
+    font-size: 24px;
+    font-weight: bold;
+    color: inherit;
+    text-align: center;
+    margin: 10px 0 20px 0;
+}
+
+.project-btns {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    align-items: center;
+}
+
+/*========================================================== RESPONSIVE============================================================================== */
+
+@media screen and (max-width: 1157px) {
+    .project-container {
+        flex-direction: column;
+    }
+
+    .project-items {
+        width: 85%;
+    }
+}
+
+@media screen and (max-width: 750px) {
+    .project-title {
+        font-size: 22px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .project-title {
+        font-size: 19px;
+    }
+}
+
+@media screen and (max-width: 390px) {
+    .project-items img {
+        height: 250px;
+    }
+}
+
+@media screen and (max-width: 350px) {
+    .project-items img {
+        height: 200px;
+    }
+}

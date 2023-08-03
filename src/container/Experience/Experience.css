@@ -1,0 +1,262 @@
+.exp-container {
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    gap: 30px;
+    width: 100%;
+    padding-bottom: 50px;
+}
+
+.exp-group {
+    border: 2px solid #898989;
+    border-radius: 26px;
+    padding: 20px 70px;
+    width: 40%;
+}
+
+.exp-title {
+    font-size: 30px;
+    font-weight: bold;
+    color: inherit;
+    margin-bottom: 20px;
+    width: 100%;
+    text-align: center;
+}
+
+.exp-row {
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+    align-items: flex-start;
+}
+
+.exp-col {
+    width: 100%;
+}
+
+.exp-texts {
+    text-align: left;
+}
+
+.exp-item {
+    display: flex;
+    gap: 10px;
+    align-items: start;
+    margin-bottom: 20px;
+}
+
+.exp-name {
+    color: inherit;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.exp-icon {
+    font-size: 22px;
+    margin-top: 10px;
+    color: inherit;
+}
+
+.exp-status {
+    color: #898989;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+@media screen and (max-width: 1265px) {
+    .exp-group:nth-child(2) {
+        padding-bottom: 52px;
+    }
+}
+
+@media screen and (max-width: 1181px) {
+    .exp-group:nth-child(2) {
+        padding-bottom: 96px;
+    }
+}
+
+@media screen and (max-width: 1157px) {
+    .exp-group:nth-child(2) {
+        padding-bottom: 52px;
+    }
+
+    .exp-group {
+        padding: 20px 70px 20px 50px;
+    }
+}
+
+@media screen and (max-width: 1131px) {
+    .exp-group:nth-child(2) {
+        padding-bottom: 95px;
+    }
+}
+
+@media screen and (max-width: 1108px) {
+    .exp-group:nth-child(2) {
+        padding-bottom: 95px;
+    }
+
+    .exp-group {
+        padding: 20px 70px 20px 40px;
+    }
+}
+
+@media screen and (max-width: 1079px) {
+    .exp-group:nth-child(2) {
+        padding-bottom: 55px;
+    }
+}
+
+@media screen and (max-width: 995px) {
+    .exp-group {
+        padding: 20px 70px 20px 30px;
+    }
+
+    .exp-row {
+        gap: 30px;
+    }
+
+    .exp-title {
+        font-size: 26px;
+    }
+
+    .exp-name {
+        font-size: 19px;
+    }
+
+    .exp-status {
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 870px) {
+    .exp-name {
+        font-size: 16px;
+    }
+
+    .exp-group:nth-child(2) {
+        padding-bottom: 25px;
+    }
+}
+
+@media screen and (max-width: 830px) {
+    .exp-container {
+        flex-direction: column;
+    }
+
+    .exp-group {
+        margin: 0 auto;
+        padding: 20px 70px 20px 110px;
+        width: 70%;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .exp-group {
+        padding: 20px 70px 20px 80px;
+        width: 60%;
+    }
+}
+
+@media screen and (max-width: 715px) {
+    .exp-group {
+        padding: 20px 70px 20px 60px;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    .exp-group {
+        padding: 20px 70px 20px 50px;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    .exp-group {
+        width: 80%;
+        padding: 20px 70px 20px 70px;
+    }
+
+    .exp-title {
+        font-size: 24px;
+    }
+}
+
+@media screen and (max-width: 512px) {
+    .exp-group {
+        padding: 20px 70px 20px 50px;
+    }
+
+    .exp-title {
+        font-size: 22px;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .exp-group {
+        padding: 20px 70px 20px 30px;
+    }
+
+    .exp-title {
+        font-size: 22px;
+        margin-left: 20px;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .exp-group {
+        padding: 20px 70px 20px 30px;
+    }
+    .exp-row {
+        gap: 20px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .exp-group {
+        padding: 20px 70px 20px 20px;
+    }
+    .exp-row {
+        gap: 20px;
+    }
+}
+
+@media screen and (max-width: 385px) {
+    .exp-group {
+        padding: 20px 70px 20px 20px;
+    }
+    .exp-row {
+        gap: 15px;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .exp-icon {
+        font-size: 16px;
+    }
+
+    .exp-title {
+        font-size: 20px;
+    }
+
+    .exp-name {
+        font-size: 17px;
+    }
+
+    .exp-status {
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .exp-row {
+        flex-direction: column;
+    }
+
+    .exp-group {
+        padding: 20px 70px 20px 50px;
+    }
+
+    .exp-title {
+        margin-left: 0px;
+    }
+}

@@ -1,0 +1,78 @@
+:root {
+    --text-primary: #fff;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul,
+li {
+    list-style-type: none;
+}
+
+button,
+input,
+select,
+textarea {
+    border: none;
+    outline: none;
+}
+
+::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+    background-color: inherit;
+}
+
+::-webkit-scrollbar {
+    width: 8px;
+    background-color: inherit;
+}
+
+::-webkit-scrollbar-thumb {
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+    background-color: #fd8d14;
+}
+
+.app {
+    position: relative;
+}
+
+.scrolltop {
+    position: fixed;
+    bottom: 30px;
+    right: 35px;
+    cursor: pointer;
+    color: inherit;
+}
+
+.scrolltop-icon {
+    font-size: 30px;
+    color: inherit;
+}
+
+/* ================== BREAKPOINTS ==================== */
+/* For large devices */
+@media screen and (max-width: 992px) {
+}
+
+/* For medium devices */
+@media screen and (max-width: 768px) {
+}
+
+@media screen and (max-width: 576px) {
+}
+
+/* For small devices */
+@media screen and (max-width: 350px) {
+}

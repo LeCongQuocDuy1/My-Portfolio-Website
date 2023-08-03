@@ -1,0 +1,64 @@
+.btn {
+    padding: 14px 0;
+    width: 180px;
+    border: none;
+    outline: none;
+    color: #fff;
+    border-radius: 36px;
+    font-size: 15px;
+    font-weight: 600;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn-primary {
+    background-color: #fd8d14;
+}
+
+.btn-outline {
+    border: 2px solid #fd8d14;
+    background-color: #fff;
+    color: #fd8d14;
+}
+
+.btn-primary:hover {
+    background-color: #d8750b;
+}
+
+/*========================================================== RESPONSIVE============================================================================== */
+
+@media screen and (max-width: 970px) {
+}
+
+@media screen and (max-width: 700px) {
+    .btn {
+        width: 160px !important;
+        font-size: 14px !important;
+        padding: 12px !important;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .btn {
+        width: 120px !important;
+        font-size: 12px !important;
+        padding: 10px !important;
+    }
+}
+
+@media screen and (max-width: 500px) {
+}
+
+@media screen and (max-width: 450px) {
+}
+
+@media screen and (max-width: 400px) {
+    .btn {
+        width: 100px !important;
+    }
+}
+
+@media screen and (max-width: 300px) {
+}

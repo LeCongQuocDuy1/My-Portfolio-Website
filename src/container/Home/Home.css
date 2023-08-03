@@ -1,0 +1,243 @@
+.home {
+    padding: 30px 50px 80px 50px;
+}
+
+.home-container {
+    width: 100%;
+}
+
+.home-content {
+    display: flex;
+    gap: 10%;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.home-content__left {
+    text-align: center;
+    width: 550px;
+}
+
+.content-left__socials {
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+
+.content-left__name {
+    font-size: 30px;
+    font-weight: bold;
+    color: inherit;
+}
+
+.content-left__name span {
+    color: #fd8d14;
+}
+
+.content-left__title {
+    font-size: 40px;
+    color: inherit;
+    font-weight: bold;
+    margin-bottom: 16px;
+}
+
+.content-left__desc {
+    font-size: 20px;
+    color: #808080;
+    margin-bottom: 20px;
+}
+
+.content-buttons {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+}
+
+.content-left__socials a {
+    color: inherit;
+    font-size: 24px;
+}
+
+.home-content__right img {
+    width: 450px;
+    height: 450px;
+    object-fit: cover;
+    border-radius: 100%;
+}
+
+.menu-left--mobile {
+    flex-direction: column;
+    display: none;
+}
+
+/*========================================================== RESPONSIVE============================================================================== */
+
+@media screen and (max-width: 970px) {
+    .home-content {
+        flex-direction: column-reverse;
+    }
+
+    .menu-left--mobile {
+        display: flex;
+        position: absolute;
+        left: 0;
+        top: 70px;
+    }
+
+    .home-content__right img {
+        width: 300px;
+        height: 300px;
+        margin-bottom: 10px;
+    }
+
+    .content-left__socials {
+        display: none;
+    }
+
+    .content-left__socials.menu-left--mobile {
+        display: flex;
+    }
+
+    .content-left__name {
+        font-size: 24px;
+    }
+
+    .content-left__title {
+        font-size: 28px;
+    }
+
+    .content-left__desc {
+        font-size: 18px;
+    }
+
+    .home {
+        padding: 30px 50px 50px 50px;
+    }
+
+    .about-container {
+        margin: 0 !important;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .content-buttons {
+        width: 80%;
+        margin: 0 auto;
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .home-content__right img {
+        margin-left: 30px;
+    }
+
+    .content-left__desc {
+        text-align: center;
+        padding: 0 80px;
+        margin: 0 auto;
+        margin-bottom: 30px;
+    }
+
+    .home-content__right img {
+        width: 200px;
+        height: 200px;
+        margin-right: 30px;
+    }
+
+    .menu-left--mobile {
+        top: 30px;
+    }
+
+    .content-left__socials a {
+        font-size: 18px;
+    }
+
+    .content-left__name {
+        font-size: 20px;
+    }
+
+    .content-left__title {
+        font-size: 24px;
+    }
+
+    .content-left__desc {
+        text-align: center;
+        font-size: 15px;
+    }
+
+    .home {
+        padding: 30px 50px 50px 50px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .content-left__desc {
+        padding: 0 100px;
+        margin-bottom: 20px;
+    }
+
+    .home {
+        padding: 25px 25px 50px 25px;
+    }
+}
+
+@media screen and (max-width: 495px) {
+    .content-buttons {
+        width: 60%;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .content-left__desc {
+        padding: 0 140px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .content-left__desc {
+        margin-bottom: 15px;
+    }
+
+    .home-content__right img {
+        width: 170px;
+        height: 170px;
+        margin-right: 30px;
+    }
+
+    .menu-left--mobile {
+        top: 0;
+    }
+
+    .content-left__socials {
+        top: 10px;
+        gap: 10px;
+    }
+
+    .content-left__socials a {
+        color: inherit;
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width: 365px) {
+    .content-buttons {
+        width: 50%;
+    }
+}
+
+@media screen and (max-width: 300px) {
+    .content-left__desc {
+        padding: 0 170px;
+    }
+
+    .home-content__right img {
+        width: 100px;
+        height: 100px;
+    }
+}

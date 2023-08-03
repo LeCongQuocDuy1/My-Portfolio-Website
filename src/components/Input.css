@@ -1,0 +1,41 @@
+.input-section {
+    position: relative;
+    border: 2px solid #898989;
+    padding: 12px 20px;
+    border-radius: 10px;
+    width: 300px;
+    margin-bottom: 30px;
+    width: 100%;
+}
+
+.input-section__label {
+    position: absolute;
+    top: -13px;
+    left: 15px;
+    font-size: 14px;
+    font-weight: 600;
+    color: inherit;
+    padding: 0 5px;
+    background-color: inherit;
+}
+
+.input-section__input {
+    font-size: 16px;
+    font-weight: 600;
+    color: inherit;
+    background-color: transparent;
+}
+
+.input-section__input::placeholder {
+    color: #898989;
+}
+
+@media screen and (max-width: 570px) {
+    .input-section__input {
+        font-size: 14px;
+    }
+
+    .input-section__label {
+        font-size: 13px;
+    }
+}
