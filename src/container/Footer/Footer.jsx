@@ -1,4 +1,4 @@
-import React, { useContext } from "react";
+import { useContext } from "react";
 import { ThemeContext } from "../../App";
 import "./Footer.css";
 import {
@@ -8,37 +8,38 @@ import {
     FaYoutube,
 } from "react-icons/fa";
 import { BiCopyright } from "react-icons/bi";
+import { useTranslation } from "react-i18next";
 
 const Footer = () => {
     const { theme } = useContext(ThemeContext);
+    const { t } = useTranslation();
+    const menuOptions = t("menuOptions", { returnObjects: true });
 
     return (
         <div className="footer">
-            <p className="footer-title">Quoc Duy</p>
+            <a href="#" className="footer-title">
+                {t("logo")}
+            </a>
             <ul
                 className={`footer-lists`}
                 style={theme === "dark" ? { color: "#fff" } : { color: "#000" }}
             >
-                <li className="active">
-                    <a href="#">Home</a>
-                </li>
-                <li>
-                    <a href="#">About</a>
-                </li>
-                <li>
-                    <a href="#">Resume</a>
-                </li>
-                <li>
-                    <a href="#">Project</a>
-                </li>
-                <li>
-                    <a href="#">Contact</a>
-                </li>
+                {menuOptions.map((item, index) => {
+                    return (
+                        <li
+                            className={`${item?.href === "#" ? `active` : ``}`}
+                            key={index}
+                        >
+                            <a href={item?.href}>{item?.text}</a>
+                        </li>
+                    );
+                })}
             </ul>
             <div className="footer__socials">
                 <a
                     href="https://www.facebook.com/helianthusanuus1003"
                     target="_blank"
+                    rel="noreferrer"
                 >
                     <FaFacebook />
                 </a>
@@ -53,7 +54,7 @@ const Footer = () => {
                 </a>
             </div>
             <p className="footer_allright">
-                <BiCopyright /> Quoc Duy. All rights reserved.
+                <BiCopyright /> {t("footer.copyRight")}
             </p>
         </div>
     );

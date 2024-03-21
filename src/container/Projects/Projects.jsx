@@ -3,8 +3,10 @@ import Title from "../../components/Title";
 import Button from "../../components/Button";
 import Slider from "react-slick";
 import { MdArrowBackIosNew, MdArrowForwardIos } from "react-icons/md";
+import { useTranslation } from "react-i18next";
 
 const Projects = () => {
+    const { t } = useTranslation();
     const settings = {
         dots: false,
         infinite: true,
@@ -36,7 +38,10 @@ const Projects = () => {
 
     return (
         <div className="projects" id="project">
-            <Title title="Projects" desc="My Projects Recent" />
+            <Title
+                title={t("project.titleSection.title")}
+                desc={t("project.titleSection.desc")}
+            />
             <Slider {...settings}>
                 <div className="project-items">
                     <img

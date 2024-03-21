@@ -1,4 +1,3 @@
-import React from "react";
 import "./Home.css";
 import avatar from "../../assets/avatar.jpg";
 import Navbar from "../Navbar/Navbar";
@@ -9,8 +8,11 @@ import {
     FaInstagram,
     FaYoutube,
 } from "react-icons/fa";
+import { useTranslation } from "react-i18next";
 
 const Home = () => {
+    const { t } = useTranslation();
+
     return (
         <div className="home" id="#">
             <div className="home-container">
@@ -20,6 +22,7 @@ const Home = () => {
                         <a
                             href="https://www.facebook.com/helianthusanuus1003"
                             target="_blank"
+                            rel="noreferrer"
                         >
                             <FaFacebook className="socials-icon" />
                         </a>
@@ -38,6 +41,7 @@ const Home = () => {
                             <a
                                 href="https://www.facebook.com/helianthusanuus1003"
                                 target="_blank"
+                                rel="noreferrer"
                             >
                                 <FaFacebook className="socials-icon" />
                             </a>
@@ -52,24 +56,22 @@ const Home = () => {
                             </a>
                         </div>
                         <p className="content-left__name">
-                            Hello, I'm <span>Duy</span>
+                            {t("bannerContent.hello")}
                         </p>
                         <p className="content-left__title">
-                            Front End Developer
+                            {t("bannerContent.job")}
                         </p>
                         <p className="content-left__desc">
-                            Resolving design problems, building smart user
-                            interfaces and userful interactions, developing rich
-                            web applications and seamless web expriences.
+                            {t("bannerContent.desc")}
                         </p>
                         <div className="content-buttons">
                             <Button
-                                text={"Hire Me"}
+                                text={t("bannerContent.button1")}
                                 outline={true}
                                 width={180}
                             />
                             <Button
-                                text={"Get CV"}
+                                text={t("bannerContent.button2")}
                                 primary={true}
                                 width={180}
                             />

@@ -1,0 +1,86 @@
+{
+    "logo": "Quốc Duy",
+    "menuOptions": [
+        {
+            "href": "#",
+            "text": "Trang chủ"
+        },
+        {
+            "href": "#about",
+            "text": "Giới thiệu"
+        },
+        {
+            "href": "#experience",
+            "text": "Kinh nghiệm"
+        },
+        {
+            "href": "#project",
+            "text": "Dự án"
+        },
+        {
+            "href": "#contact",
+            "text": "Liên hệ"
+        }
+    ],
+    "bannerContent": {
+        "hello": "Xin chào, tôi là Duy",
+        "job": "Nhà phát triển giao diện người dùng",
+        "desc": "Giải quyết các vấn đề về thiết kế, xây dựng giao diện người dùng thông minh và tương tác hữu ích, phát triển các ứng dụng web phong phú và trải nghiệm web liền mạch.",
+        "button1": "Tuyển dụng tôi",
+        "button2": "Lấy CV"
+    },
+    "about": {
+        "titleSection": {
+            "title": "Giới thiệu về tôi",
+            "desc": "Tìm hiểu thêm"
+        },
+        "experience": {
+            "title": "Kinh nghiệm",
+            "content": "2 năm kinh nghiệm trở lên trong lập trình Web"
+        },
+        "education": {
+            "title": "Giáo dục",
+            "content": "Tốt nghiệp Đại học Phú Xuân, chuyên ngành công nghệ thông tin"
+        },
+        "description": "Tôi có nền tảng kiến ​​thức vững chắc về HTML/CSS và Javascript ES5/ES6, ReactJS và Nodejs. Vị trí tôi muốn ứng tuyển là Frontend Developer hoặc có thể là React Developer nếu điều đó là cần thiết. Tôi mong muốn được làm việc trong môi trường năng động và trẻ trung. Tôi luôn mong muốn đóng góp những giá trị cá nhân của mình để giúp công ty phát triển."
+    },
+    "experience": {
+        "titleSection": {
+            "title": "Khám phá về tôi",
+            "desc": "Kinh nghiệm"
+        },
+        "frontTitle": "Phát triển giao diện người dùng",
+        "backTitle": "Phát triển chức năng phía máy chủ",
+        "experienced": "Có kinh nghiệm",
+        "intermediate": "Trung cấp",
+        "basic": "Cơ bản"
+    },
+    "project": {
+        "titleSection": {
+            "title": "Dự án",
+            "desc": "Dự án của tôi gần đây"
+        }
+    },
+    "contact": {
+        "titleSection": {
+            "title": "Liên hệ với tôi",
+            "desc": "Liên hệ với tôi"
+        },
+        "sections": {
+            "title1": "Nói chuyện với tôi",
+            "title2": "Liên hệ với tôi về dự án của bạn",
+            "buttonArrow": "Liên hệ với tôi",
+            "phone": "Số điện thoại",
+            "messenger": "Nhắn tin",
+            "name": "Tên của bạn",
+            "placeHolderName": "Nhập tên của bạn",
+            "placeHolderEmail": "Nhập email của bạn",
+            "message": "Nội dung",
+            "placeHolderMess": "Nhập nội dung bạn muốn gửi cho tôi",
+            "buttonSend": "Gửi tin nhắn"
+        }
+    },
+    "footer": {
+        "copyRight": "Quốc Duy. Đã đăng ký bản quyền."
+    }
+}

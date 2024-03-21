@@ -12,6 +12,7 @@
     border-radius: 26px;
     padding: 20px 70px;
     width: 40%;
+    min-height: 400px;
 }
 
 .exp-title {

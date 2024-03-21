@@ -1,0 +1,86 @@
+{
+    "logo": "Quoc Duy",
+    "menuOptions": [
+        {
+            "href": "#",
+            "text": "Home"
+        },
+        {
+            "href": "#about",
+            "text": "Introduction"
+        },
+        {
+            "href": "#experience",
+            "text": "Experience"
+        },
+        {
+            "href": "#project",
+            "text": "Project"
+        },
+        {
+            "href": "#contact",
+            "text": "Contact"
+        }
+    ],
+    "bannerContent": {
+        "hello": "Hello, I'm Duy",
+        "job": "Front-end developer",
+        "desc": "Solve design problems, build intelligent user interfaces and useful interactions, develop rich web applications and seamless web experiences.",
+        "button1": "Recruit me",
+        "button2": "Get CV"
+    },
+    "about": {
+        "titleSection": {
+            "title": "About me",
+            "desc": "Learn more"
+        },
+        "experience": {
+            "title": "Experience",
+            "content": "2 years or more of experience in Web programming"
+        },
+        "education": {
+            "title": "Education",
+            "content": "Graduated from Phu Xuan University, majoring in information technology"
+        },
+        "description": "I have a strong knowledge base in HTML/CSS and Javascript ES5/ES6, ReactJS and Nodejs. The position I want to apply for is Frontend Developer or maybe React Developer if that is necessary . I look forward to working in a dynamic and youthful environment. I always want to contribute my personal values to help the company develop."
+    },
+    "experience": {
+        "titleSection": {
+            "title": "Discover about me",
+            "desc": "Experience"
+        },
+        "frontTitle": "User interface development",
+        "backTitle": "Server-side functionality development",
+        "experienced": "Experienced",
+        "intermediate": "Intermediate",
+        "basic": "Basic"
+    },
+    "project": {
+        "titleSection": {
+            "title": "Project",
+            "desc": "My recent projects"
+        }
+    },
+    "contact": {
+        "titleSection": {
+            "title": "Contact me",
+            "desc": "Contact me"
+        },
+        "sections": {
+            "title1": "Talk to me",
+            "title2": "Contact me about your project",
+            "buttonArrow": "Contact me",
+            "phone": "Phone number",
+            "messenger": "Messaging",
+            "name": "Your name",
+            "placeHolderName": "Enter your name",
+            "placeHolderEmail": "Enter your email",
+            "message": "Content",
+            "placeHolderMess": "Enter the message you want to send me",
+            "buttonSend": "Send message"
+        }
+    },
+    "footer": {
+        "copyRight": "Quoc Duy. Copyright registered."
+    }
+}
