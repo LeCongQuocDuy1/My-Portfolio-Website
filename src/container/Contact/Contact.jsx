@@ -34,7 +34,7 @@ const Contact = () => {
                     <div className="contact-item">
                         <FaPhoneAlt className="contact-item__icon" />
                         <p className="contact-item__name">Phone</p>
-                        <p className="contact-item__desc">+84 086-535-0416</p>
+                        <p className="contact-item__desc">+84 086-773-5213</p>
                         <a href="#" className="contact-item__link">
                             Contact me
                             <BsArrowRightShort className="contact-item__arrow" />
@@ -43,11 +43,9 @@ const Contact = () => {
                     <div className="contact-item">
                         <BsMessenger className="contact-item__icon" />
                         <p className="contact-item__name">Messenger</p>
-                        <p className="contact-item__desc">
-                            @helianthusanuus1003
-                        </p>
+                        <p className="contact-item__desc">@lecongquocduy</p>
                         <a
-                            href="https://www.facebook.com/helianthusanuus1003"
+                            href="https://www.facebook.com/lecongquocduy/"
                             className="contact-item__link"
                         >
                             Contact me
