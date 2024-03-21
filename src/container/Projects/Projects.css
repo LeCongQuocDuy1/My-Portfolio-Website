@@ -39,7 +39,18 @@
 }
 
 /*========================================================== RESPONSIVE============================================================================== */
+@media screen and (max-width: 830px) {
+    .project-items {
+        width: 80% !important;
+        display: flex !important;
+        flex-direction: column !important;
+        margin: 0 auto;
+    }
 
+    .slick-arrow {
+        display: none !important;
+    }
+}
 /* @media screen and (max-width: 1157px) {
     .project-container {
         flex-direction: column;

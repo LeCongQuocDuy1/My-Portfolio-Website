@@ -10,13 +10,28 @@ const Projects = () => {
         infinite: true,
         slidesToShow: 3,
         slidesToScroll: 1,
-        autoplay: true,
+        autoplay: false,
         speed: 1000,
         autoplaySpeed: 3000,
         cssEase: "linear",
         pauseOnHover: false,
         nextArrow: <MdArrowForwardIos />,
         prevArrow: <MdArrowBackIosNew />,
+        responsive: [
+            {
+                breakpoint: 1024,
+                settings: {
+                    slidesToShow: 2,
+                },
+            },
+            {
+                breakpoint: 830,
+                settings: {
+                    slidesToShow: 1,
+                    dots: true,
+                },
+            },
+        ],
     };
 
     return (
