@@ -40,7 +40,7 @@
 
 /*========================================================== RESPONSIVE============================================================================== */
 
-@media screen and (max-width: 1157px) {
+/* @media screen and (max-width: 1157px) {
     .project-container {
         flex-direction: column;
     }
@@ -72,4 +72,4 @@
     .project-items img {
         height: 200px;
     }
-}
+} */

@@ -4,7 +4,6 @@ import { ThemeContext } from "../App";
 
 const TextArea = ({ label, placeText }) => {
     const { theme } = useContext(ThemeContext);
-    console.log(theme);
 
     return (
         <div className="textarea-section">

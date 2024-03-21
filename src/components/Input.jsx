@@ -4,7 +4,6 @@ import { ThemeContext } from "../App";
 
 const Input = ({ type, label, placeText }) => {
     const { theme } = useContext(ThemeContext);
-    console.log(theme);
 
     return (
         <div className="input-section">
