@@ -24,6 +24,7 @@
     font-weight: 600;
     color: inherit;
     background-color: transparent;
+    width: 100%;
 }
 
 .input-section__input::placeholder {

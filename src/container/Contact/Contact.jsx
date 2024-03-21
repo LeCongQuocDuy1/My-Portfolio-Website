@@ -1,4 +1,3 @@
-import React from "react";
 import Title from "../../components/Title";
 import Input from "../../components/Input";
 import "./Contact.css";
@@ -54,7 +53,9 @@ const Contact = () => {
                     </div>
                 </div>
                 <div className="contact-right">
-                    <h3 className="contact-title">Write me your project</h3>
+                    <h3 className="contact-title">
+                        Contact me about your project
+                    </h3>
                     <form>
                         <Input
                             label="Name"
@@ -62,11 +63,10 @@ const Contact = () => {
                             placeText="Insert your name"
                         />
                         <Input
-                            label="Mail"
+                            label="Email"
                             type="email"
                             placeText="Insert your email"
                         />
-                        <Input label="Name" type="text" />
                         <TextArea
                             label="Message"
                             placeText="Write your message"
