@@ -1,7 +1,7 @@
 import "./Home.css";
 import avatar from "../../assets/avatar.jpg";
 import Navbar from "../Navbar/Navbar";
-import Button from "../../components/Button";
+import Button from "../../components/Button/Button";
 import {
     FaFacebook,
     FaGooglePlusSquare,

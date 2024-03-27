@@ -1,5 +1,5 @@
 import "./Experience.css";
-import Title from "../../components/Title";
+import Title from "../../components/Title/Title";
 import { BsCheckCircleFill } from "react-icons/bs";
 import { useTranslation } from "react-i18next";
 

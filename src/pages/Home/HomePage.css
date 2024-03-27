@@ -1,0 +1,16 @@
+.home-container {
+    position: relative;
+}
+
+.scrolltop {
+    position: fixed;
+    bottom: 30px;
+    right: 35px;
+    cursor: pointer;
+    color: inherit;
+}
+
+.scrolltop-icon {
+    font-size: 30px;
+    color: inherit;
+}

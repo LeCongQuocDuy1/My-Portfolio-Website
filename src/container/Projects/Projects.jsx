@@ -1,6 +1,6 @@
 import "./Projects.css";
-import Title from "../../components/Title";
-import Button from "../../components/Button";
+import Title from "../../components/Title/Title";
+import Button from "../../components/Button/Button";
 import Slider from "react-slick";
 import { MdArrowBackIosNew, MdArrowForwardIos } from "react-icons/md";
 import { useTranslation } from "react-i18next";

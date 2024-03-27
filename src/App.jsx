@@ -1,13 +1,11 @@
-import Home from "./container/Home/Home";
-import About from "./container/About/About";
 import "./App.css";
 import { createContext, useState } from "react";
-import Experience from "./container/Experience/Experience";
-import Projects from "./container/Projects/Projects";
-import { BsFillArrowUpSquareFill } from "react-icons/bs";
-import Contact from "./container/Contact/Contact";
-import Footer from "./container/Footer/Footer";
-
+import HomePage from "./pages/Home/HomePage";
+import { Route, Routes } from "react-router-dom";
+import Login from "./pages/Auth/Login/Login";
+import Register from "./pages/Auth/Register/Register";
+import "../theme.less";
+import { ConfigProvider } from "antd";
 export const ThemeContext = createContext();
 function App() {
     const [theme, setTheme] = useState("light");
@@ -18,26 +16,33 @@ function App() {
         }
     };
     return (
-        <ThemeContext.Provider value={{ theme, handleChangeTheme }}>
-            <div
-                className="app"
-                style={
-                    theme === "dark"
-                        ? { backgroundColor: "#000", color: "#fff" }
-                        : { backgroundColor: "#fff", color: "#000" }
-                }
-            >
-                <Home />
-                <About />
-                <Experience />
-                <Projects />
-                <Contact />
-                <Footer />
-                <a href="#" className="scrolltop">
-                    <BsFillArrowUpSquareFill className="scrolltop-icon" />
-                </a>
-            </div>
-        </ThemeContext.Provider>
+        <ConfigProvider
+            theme={{
+                token: {
+                    colorPrimary: "#fd8d14",
+                },
+            }}
+        >
+            <ThemeContext.Provider value={{ theme, handleChangeTheme }}>
+                <div
+                    className="app"
+                    style={
+                        theme === "dark"
+                            ? { backgroundColor: "#000", color: "#fff" }
+                            : { backgroundColor: "#fff", color: "#000" }
+                    }
+                >
+                    <Routes>
+                        <Route path="/dashboard/login" element={<Login />} />
+                        <Route
+                            path="/dashboard/register"
+                            element={<Register />}
+                        />
+                        <Route path="/*" element={<HomePage />} />
+                    </Routes>
+                </div>
+            </ThemeContext.Provider>
+        </ConfigProvider>
     );
 }
 

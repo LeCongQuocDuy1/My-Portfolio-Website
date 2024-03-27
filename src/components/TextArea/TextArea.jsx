@@ -1,6 +1,6 @@
 import React, { useContext } from "react";
 import "./TextArea.css";
-import { ThemeContext } from "../App";
+import { ThemeContext } from "../../App";
 
 const TextArea = ({ label, placeText }) => {
     const { theme } = useContext(ThemeContext);

@@ -1,5 +1,5 @@
-import Title from "../../components/Title";
-import Input from "../../components/Input";
+import Title from "../../components/Title/Title";
+import Input from "../../components/Input/Input";
 import "./Contact.css";
 import {
     BsFillEnvelopeAtFill,
@@ -8,8 +8,8 @@ import {
     BsSend,
 } from "react-icons/bs";
 import { FaPhoneAlt } from "react-icons/fa";
-import TextArea from "../../components/TextArea";
-import Button from "../../components/Button";
+import TextArea from "../../components/TextArea/TextArea";
+import Button from "../../components/Button/Button";
 import { useTranslation } from "react-i18next";
 
 const Contact = () => {

@@ -14,6 +14,11 @@ body {
 
 a {
     text-decoration: none;
+    color: #fd8d14;
+}
+
+a:hover {
+    color: #fd8c14be;
 }
 
 ul,
@@ -46,19 +51,6 @@ textarea {
 
 .app {
     position: relative;
-}
-
-.scrolltop {
-    position: fixed;
-    bottom: 30px;
-    right: 35px;
-    cursor: pointer;
-    color: inherit;
-}
-
-.scrolltop-icon {
-    font-size: 30px;
-    color: inherit;
 }
 
 /* ================== BREAKPOINTS ==================== */

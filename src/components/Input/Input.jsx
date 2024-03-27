@@ -1,8 +1,8 @@
 import React, { useContext } from "react";
 import "./Input.css";
-import { ThemeContext } from "../App";
+import { ThemeContext } from "../../App";
 
-const Input = ({ type, label, placeText }) => {
+const InputContact = ({ type, label, placeText }) => {
     const { theme } = useContext(ThemeContext);
 
     return (
@@ -26,4 +26,4 @@ const Input = ({ type, label, placeText }) => {
     );
 };
 
-export default Input;
+export default InputContact;

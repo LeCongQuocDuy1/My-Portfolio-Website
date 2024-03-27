@@ -3,8 +3,8 @@ import "./Navbar.css";
 import { FaSun, FaMoon, FaTimes } from "react-icons/fa";
 import { AiOutlineMenu } from "react-icons/ai";
 import { ThemeContext } from "../../App";
-import en from "../../../public/en.png";
-import vn from "../../../public/vn.png";
+import en from "../../../src/assets/en.png";
+import vn from "../../../src/assets/vn.png";
 import { useTranslation } from "react-i18next";
 import i18n from "../../assets/i18n";
 

@@ -1,5 +1,5 @@
 import "./About.css";
-import Title from "../../components/Title";
+import Title from "../../components/Title/Title";
 import avatar from "../../assets/avatar.jpg";
 import { MdCastForEducation, MdWorkspacePremium } from "react-icons/md";
 import { useTranslation } from "react-i18next";
@@ -13,7 +13,6 @@ const About = () => {
                 title={t("about.titleSection.title")}
                 desc={t("about.titleSection.desc")}
             />
-            \
             <div className="about-container">
                 <div className="about-img">
                     <img src={avatar} alt="Avatar" />
